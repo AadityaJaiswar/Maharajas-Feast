@@ -1,0 +1,29 @@
+body{
+    background-image: url('PopUP.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+    
+.container {
+    height: 90vh; 
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.center-button {
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 4px black;
+    color: rgb(255, 255, 255);
+    font-weight:bolder;
+    padding: 10px 20px;
+    color: black;
+    cursor: pointer; 
+    background-color: rgb(76, 148, 231);
+    position: relative;
+    top: 66%;
+    padding: 20px;
+}
